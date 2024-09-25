@@ -1,0 +1,118 @@
+body { margin: 0; 
+    font-family: Arial, sans-serif; 
+    } 
+     
+    .hero { display: flex;
+         flex-direction: column; 
+         align-items: center;
+          justify-content: center;
+           height: 100vh;
+            background-image: url(image/—Pngtree—futuristic\ shape\ abstract\ background\ chemistry_1250295.jpg);
+             background-size: cover;
+              text-align: center;
+               color: pink; 
+    }    
+
+ 
+h1 { 
+font-size: 50px; 
+animation: fadeIn 2s; 
+} 
+ 
+button.cta { padding: 10px 20px; font-size: 18px; background-color: #28a745; color: white; border: none; cursor: pointer; 
+transition: background-color 0.3s ease; 
+} 
+ 
+button.cta:hover { background-color: #218838; 
+} 
+ 
+@keyframes fadeIn { from
+     {opacity: 0; 
+} 
+ to { 
+  opacity: 1; 
+} 
+} 
+ 
+.services { padding: 40px; 
+text-align: center; 
+} 
+ 
+.service-cards { 
+display: flex; 
+justify-content: space-around; 
+} 
+ 
+
+ 
+h1 { 
+font-size: 50px; 
+animation: fadeIn 2s; 
+} 
+ 
+button.cta { padding: 10px 20px; font-size: 18px; background-color: #28a745; color: white; border: none; cursor: pointer; 
+transition: background-color 0.3s ease; 
+} 
+ 
+button.cta:hover { background-color: #218838; 
+} 
+ 
+@keyframes fadeIn { from {   opacity: 0; 
+} 
+ to { 
+  opacity: 1; 
+} 
+} 
+ 
+.services { padding: 40px; 
+text-align: center; 
+} 
+ 
+.service-cards { 
+display: flex; 
+justify-content: space-around; 
+} 
+ 
+.card { 
+    background-color: #91e210; padding: 20px; width: 30%; 
+transition: transform 0.3s; 
+} 
+ 
+
+
+ 
+.card:hover { 
+transform: scale(1.05); 
+} 
+ 
+@media (max-width: 768px)
+ { .service-cards 
+{ flex-direction: column; 
+  align-items: center; } 
+ 
+.card {       width: 80%; 
+      margin-bottom: 20px; 
+} 
+}
+
+    
+@media (max-width: 768px) { body { 
+    background-color: lightgray; 
+} 
+
+.container { 
+          flex-direction: column; } 
+} 
+
+@keyframes spin { from
+     {      transform: rotate(0deg); 
+} 
+ to {    transform: rotate(360deg); 
+} 
+} 
+ 
+
+ 
+
+
+
